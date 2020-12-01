@@ -1,5 +1,6 @@
 package jpabook.jpashop.domain.Entity.Member;
 
+import jpabook.jpashop.domain.repository.MemberRepository;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;

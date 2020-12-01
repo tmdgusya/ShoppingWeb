@@ -25,4 +25,6 @@ public class Member {
     @OneToMany(mappedBy = "member") // Order Class 에 있는 member Field => mappedBy 선언하면 readonly 로 변환
     private List<Order> orders = new ArrayList<>();
 
+
+
 }
